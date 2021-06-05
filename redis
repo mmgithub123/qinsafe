@@ -1,0 +1,25 @@
+
+1 do not start reids use root
+ps -ef | grep redis-server | grep ^root | grep -v 'grep'
+
+right: 
+empty
+wrong:
+root
+
+2 use password auth
+ping
+
+right:
+(error) NOAUTH Authentication required.
+wrong:
+PONG
+
+3 the redis binary file redis-cli and redis-server require 700
+ls -l <redis_home>/bin/ *
+
+right:
+non-root：non-root 700
+wrong:
+root:root    0755
+
