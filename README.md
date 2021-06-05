@@ -16,4 +16,6 @@ use this big safety rules database, we can write a auto script or program,the sc
 and  berfore we use some software , we run the qinsafe first or in crontab ,qinsafe will run auto,so when the qinsafe done, we have a very safety software environment.
 
 
-so，the important things is the wiki safery rules database。it must update and contributed day by day，year by year。
+so，the important things is the wiki safery rules database。it must update and contributed day by day，year by year。and we make the knowledge became the program，
+
+so the easy and repeat things do once come ture。
